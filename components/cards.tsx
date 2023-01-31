@@ -63,7 +63,7 @@ export default function Cards() {
 
       {/* card 3 */}
 
-      <div className=" w-[280px] h-[304px] lg:w-[320px] lg:h-[404px]  bg-white mb-6 flex flex-wrap justify-center flex-col align-middle text-center m-auto shadow-2xl rounded-2xl">
+      <div className=" w-[280px] h-[305px] lg:w-[320px] lg:h-[404px]  bg-white mb-6 flex flex-wrap justify-center flex-col align-middle text-center m-auto shadow-2xl rounded-2xl">
         <img
           className={`${style.icon} m-auto`}
           src={`/Professional.png`}
