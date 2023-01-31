@@ -1,6 +1,6 @@
 import React from "react";
 import { TiTick } from "react-icons/Ti";
-import style from "../styles/page.module.css";
+import style from "../../styles/page.module.css";
 export default function Cards() {
   return (
     <section className="mt-[-80px] lg:flex lg:flex-row mlg:flex-wrap md:mt-[-130px]">
