@@ -1,5 +1,5 @@
 import React from "react";
-import { TiTick } from "react-icons/Ti";
+import Image from "next/image";
 import style from "../styles/page.module.css";
 export default function Cards() {
   return (
@@ -17,11 +17,11 @@ export default function Cards() {
 
         <ul className=" mb-6 lg:mb-12 lg:mt-6 text-base font-normal ">
           <li className="flex  justify-center row m-auto text-center  lg:mb-3">
-            <TiTick className="mt-1 mr-2 bg-green-500 text-white rounded-full" />
+            <Image src={`/tick.png`} height={30} width={30} alt={"tick"} />
             <p className="">Access all the free content</p>
           </li>
           <li className=" flex flex-row justify-center m-auto text-center ">
-            <TiTick className="mt-1 mr-2  bg-green-500 text-white rounded-full" />
+            <Image src={`/tick.png`} height={30} width={30} alt={"tick"} />
             <p className="">Access all the free content</p>
           </li>
         </ul>
@@ -45,11 +45,11 @@ export default function Cards() {
 
         <ul className=" mb-6 lg:mb-12 lg:mt-6 text-base font-normal ">
           <li className="flex  justify-center row m-auto text-center  lg:mb-3">
-            <TiTick className="mt-1 mr-2 bg-green-500 text-white rounded-full" />
+            <Image src={`/tick.png`} height={30} width={30} alt={"tick"} />
             <p className="">Access all the free content</p>
           </li>
           <li className=" flex flex-row justify-center m-auto text-center ">
-            <TiTick className="mt-1 mr-2  bg-green-500 text-white rounded-full" />
+            <Image src={`/tick.png`} height={30} width={30} alt={"tick"} />
             <p className="">Access all the free content</p>
           </li>
         </ul>
@@ -76,11 +76,11 @@ export default function Cards() {
 
         <ul className=" mb-6 lg:mb-12 lg:mt-6 text-base font-normal ">
           <li className="flex  justify-center row m-auto text-center  lg:mb-3">
-            <TiTick className="mt-1 mr-2 bg-green-500 text-white rounded-full" />
+            <Image src={`/tick.png`} height={30} width={30} alt={"tick"} />
             <p className="">Access all the free content</p>
           </li>
           <li className=" flex flex-row justify-center m-auto text-center ">
-            <TiTick className="mt-1 mr-2  bg-green-500 text-white rounded-full" />
+            <Image src={`/tick.png`} height={30} width={30} alt={"tick"} />
             <p className="">Access all the Free content</p>
           </li>
         </ul>
