@@ -81,7 +81,7 @@ export default function Cards() {
           </li>
           <li className=" flex flex-row justify-center m-auto text-center ">
             <TiTick className="mt-1 mr-2  bg-green-500 text-white rounded-full" />
-            <p className="">Access all the free content</p>
+            <p className="">Access all the Free content</p>
           </li>
         </ul>
 
