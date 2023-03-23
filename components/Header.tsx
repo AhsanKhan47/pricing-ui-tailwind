@@ -7,7 +7,7 @@ export default function Header() {
         href="https://www.figma.com/file/hF99eQvissfBaW5frMJEPo/Pricing-section?node-id=0%3A1&t=Lyw8r1Kajamng3IF-1"
         target="_blank"
       >
-        <button className="float-right text-sm md:text-lg m-2 px-3 py-2 border-2 border-white hover:bg-white hover:text-blue-700 transition-all rounded-md">
+        <button className="md:absolute md:top-3 md:right-3 float-right text-sm md:text-lg m-2 px-3 py-2 border-2 border-white hover:bg-white hover:text-blue-700 transition-all rounded-md">
           View figma design
         </button>
       </Link>
